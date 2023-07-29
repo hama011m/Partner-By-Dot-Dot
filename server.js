@@ -37,7 +37,7 @@ if(vex.channel.type === "dm"){
 if(vex.author.id===client.user.id) return; 
 vex.author.send("https://discord.gg/9sebTXTRFR")
 let s2 = vex .content = vex.content.replace(/@(everyone)/, "🥰").replace(/@(here)/, "🥰");
-let hama1 = client.channels.cache.get("989261716598689942")//id bashe reklam
+let hama1 = client.channels.cache.get("1133856207707316324")//id bashe reklam
 dot.send(`
 ناردرا لە لایەن
 <@${vex.author.id}> ` +`
@@ -103,4 +103,4 @@ client.on("ready", () => {
 });
 
 
-client.login("Token Yo Bot")
+client.login("MTA0NDMxNzA5NTk0NjYzMzI5Ng.GfNM0r.rTQIHT5jNHBCDccSRyTfXCqFfR-Si6YTQ11YkI")
